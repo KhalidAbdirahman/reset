@@ -1,0 +1,3 @@
+mystery([5,3,7]) returns [0] +  mystery([3, 7]
+mystery([3,7]) returns [-2] +  mystery([7]
+mystery([7] returns [2] + [] we can now go back to mystery([5,3,7])

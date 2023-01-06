@@ -1,0 +1,14 @@
+import turtle
+
+class BouncingBall(turtle.Turtle):
+    def __init__(self, posx, posy, color):
+        turtle.Turtle.__init__(self)
+        self.speed(0)
+        self.penup()
+        self.setpos(posx, posy)
+        self.shape('circle')
+        self.color(color)
+        self.vx = velx
+        self.vy = vely
+    def animate(self):
+        newx = 
